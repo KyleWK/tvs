@@ -539,9 +539,7 @@
                 {
                     "name": "redirect",
                     "urls": [
-                        "proxy://do=live&type=txt&ext=aHR0cHM6Ly9rZHMyLmNvZGluZy5uZXQvcC9rL2Qvay9naXQvcmF3L
-
-21hc3Rlci9tYW9saXZlLnR4dA=="
+                        "proxy://do=live&type=txt&ext=aHR0cHM6Ly9rZHMyLmNvZGluZy5uZXQvcC9rL2Qvay9naXQvcmF3L21hc3Rlci9tYW9saXZlLnR4dA=="
                     ]
                 }
             ]
@@ -556,16 +554,12 @@
         {
             "name": "无名",
             "type": 1,
-            "url": "https://api.zakkpa.com:8888/analysis/json/?
-
-uid=91&my=gjksuvCHIJLRS01268&url="
+            "url": "https://api.zakkpa.com:8888/analysis/json/?uid=91&my=gjksuvCHIJLRS01268&url="
         },
         {
             "name": "蓝光视讯",
             "type": 1,
-            "url": "https://api.m3u8.tv:5678/home/api?
-
-type=ys&uid=1931000&key=gktuvyzABEORSYZ135&url="
+            "url": "https://api.m3u8.tv:5678/home/api?type=ys&uid=1931000&key=gktuvyzABEORSYZ135&url="
         },
         {
             "name": "麻花视频",
@@ -580,9 +574,7 @@ type=ys&uid=1931000&key=gktuvyzABEORSYZ135&url="
         {
             "name": "筋斗云",
             "type": 1,
-            "url": "https://api.m3u8.tv:5678/home/api?
-
-type=ys&uid=1494542&key=ijmqvwxABEHILMOT48&url="
+            "url": "https://api.m3u8.tv:5678/home/api?type=ys&uid=1494542&key=ijmqvwxABEHILMOT48&url="
         },
         {
             "name": "绿箭1",
@@ -597,44 +589,32 @@ type=ys&uid=1494542&key=ijmqvwxABEHILMOT48&url="
         {
             "name": "蓝光视频",
             "type": 1,
-            "url": "https://api.m3u8.tv:5678/home/api?
-
-type=ys&uid=1931000&key=gktuvyzABEORSYZ135&url="
+            "url": "https://api.m3u8.tv:5678/home/api?type=ys&uid=1931000&key=gktuvyzABEORSYZ135&url="
         },
         {
             "name": "4K1",
             "type": 1,
-            "url": "https://api.m3u8.tv:5678/home/api?
-
-type=ys&uid=1095368&key=cdgjpsuDFLNRTUVY03&url="
+            "url": "https://api.m3u8.tv:5678/home/api?type=ys&uid=1095368&key=cdgjpsuDFLNRTUVY03&url="
         },
         {
             "name": "益达",
             "type": 1,
-            "url": "https://api.m3u8.tv:5678/home/api?
-
-type=ys&uid=123503&key=fgkqryzDEFLNQSTW69&url="
+            "url": "https://api.m3u8.tv:5678/home/api?type=ys&uid=123503&key=fgkqryzDEFLNQSTW69&url="
         },
         {
             "name": "DC",
             "type": 1,
-            "url": "https://api.m3u8.tv:5678/home/api?
-
-type=ys&uid=7665652&key=dglmnwEFILMOPRW056&url="
+            "url": "https://api.m3u8.tv:5678/home/api?type=ys&uid=7665652&key=dglmnwEFILMOPRW056&url="
         },
         {
             "name": "抹茶猪",
             "type": 1,
-            "url": "https://api.m3u8.tv:5678/home/api?
-
-type=ys&uid=1525223&key=fhikpsvBCDFHJOSUZ8&url="
+            "url": "https://api.m3u8.tv:5678/home/api?type=ys&uid=1525223&key=fhikpsvBCDFHJOSUZ8&url="
         },
         {
             "name": "麻瓜视频",
             "type": 1,
-            "url": "https://api.parwix.com:4433/analysis/json/?
-
-uid=1735&my=cejkmnuvyBEFINR056&url="
+            "url": "https://api.parwix.com:4433/analysis/json/?uid=1735&my=cejkmnuvyBEFINR056&url="
         },
         {
             "name": "追剧吧2",
@@ -644,9 +624,7 @@ uid=1735&my=cejkmnuvyBEFINR056&url="
         {
             "name": "看剧吧1",
             "type": 1,
-            "url": "https://supervip.rongxingvr.cn:8866/api/?
-
-key=nKn4eO8giUKSe8jxZU&url="
+            "url": "https://supervip.rongxingvr.cn:8866/api/?key=nKn4eO8giUKSe8jxZU&url="
         },
         {
             "name": "Yoyo1",
@@ -661,9 +639,7 @@ key=nKn4eO8giUKSe8jxZU&url="
         {
             "name": "爱",
             "type": 1,
-            "url": "http://14.17.115.200:520/json.php?
-
-id=6e5LaYyU5JLs9aRawyGKwPkH7ZFr701z&url="
+            "url": "http://14.17.115.200:520/json.php?id=6e5LaYyU5JLs9aRawyGKwPkH7ZFr701z&url="
         },
         {
             "name": "追剧吧1",
@@ -678,9 +654,7 @@ id=6e5LaYyU5JLs9aRawyGKwPkH7ZFr701z&url="
         {
             "name": "Vip1",
             "type": 1,
-            "url": "https://api.zakkpa.com:8888/analysis/json/?
-
-uid=39&my=bdfinvyBCDEJKUY089&url="
+            "url": "https://api.zakkpa.com:8888/analysis/json/?uid=39&my=bdfinvyBCDEJKUY089&url="
         },
         {
             "name": "公主",
