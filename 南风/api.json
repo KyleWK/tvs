@@ -1,5 +1,5 @@
 {
-	"spider": "https://github.com/KyleWK/tvs/raw/refs/heads/main/nf/Yoursmile.jar;md5;c6aaf6a9498e1e1d07126779c687bdd8",
+	"spider": "./spider.jar",
 	"wallpaper": "https://深色壁纸.xxooo.cf/",
 	"sites": [
 		{
@@ -13,8 +13,8 @@
 				"siteUrl": "http://127.0.0.1:9999",
 				"count": 4,
 				"channelUsername": "bdwpzhpd,bdwpzhpd,alyp_TV,ucquark,wp123zy,oneonefivewpfx,tyypzhpd,cloudtianyi,ydypzyfx,yunpan139,guaguale115,Mbox115,shares_115,zaihuayun,PanjClub,NewQuark,yunpanpan,kuake_movie,Quark_Movies,alyp_4K_Movies,alyp_TV,yunpanshare,shareAliyun,alyp_1,BaiduCloudDisk",
-				"commonConfig": "https://raw.githubusercontent.com/KyleWK/tvs/refs/heads/main/nf/json/peizhi.json",
-				"filter": "https://raw.githubusercontent.com/KyleWK/tvs/refs/heads/main/nf/json/douban.json"
+				"commonConfig": "./json/peizhi.json",
+				"filter": "./json/douban.json"
 			}
 		},
 		{
@@ -22,7 +22,7 @@
 			"name": "🅿弹幕|搜索",
 			"type": 3,
 			"api": "csp_Huban",
-			"jar": "https://github.com/KyleWK/tvs/raw/refs/heads/main/nf/HubanTC.jar"
+			"jar": "./HubanTC.jar"
 		},
 		{
 			"key": "ConfigCenter",
@@ -32,7 +32,7 @@
 			"searchable": 0,
 			"changeable": 0,
 			"ext": {
-				"commonConfig": "https://raw.githubusercontent.com/KyleWK/tvs/refs/heads/main/nf/json/peizhi.json"
+				"commonConfig": "./json/peizhi.json"
 			}
 		},
 		{
@@ -261,7 +261,7 @@
 			"searchable": 1,
 			"quickSearch": 1,
 			"filterable": 1,
-			"ext": "https://raw.githubusercontent.com/KyleWK/tvs/refs/heads/main/nf/json/可可影视.json"
+			"ext": "./json/可可影视.json"
 		},
 		{
 			"key": "剧圈圈",
@@ -271,7 +271,7 @@
 			"searchable": 1,
 			"quickSearch": 1,
 			"filterable": 1,
-			"ext": "https://raw.githubusercontent.com/KyleWK/tvs/refs/heads/main/nf/json/剧圈圈.json",
+			"ext": "./json/剧圈圈.json",
 			"click": "document.getElementById('playleft').children[0].contentWindow.document.getElementById('start').click()"
 		},
 		{
@@ -416,7 +416,7 @@
 			"searchable": 1,
 			"quickSearch": 1,
 			"filterable": 1,
-			"ext": "https://raw.githubusercontent.com/KyleWK/tvs/refs/heads/main/nf/json/jianpian.json"
+			"ext": "./json/jianpian.json"
 		},
 		{
 			"key": "csp_xlys",
@@ -520,7 +520,7 @@
 			"searchable": 1,
 			"quickSearch": 1,
 			"filterable": 1,
-			"ext": "https://raw.githubusercontent.com/KyleWK/tvs/refs/heads/main/nf/json/樱花动漫.json"
+			"ext": "./json/樱花动漫.json"
 		},
 		{
 			"key": "豆瓣",
@@ -580,9 +580,9 @@
 			"searchable": 1,
 			"changeable": 0,
 			"ext": {
-				"commonConfig": "https://raw.githubusercontent.com/KyleWK/tvs/refs/heads/main/nf/json/peizhi.json",
+				"commonConfig": "./json/peizhi.json",
 				"siteUrl": "https://wogg.xxooo.cf",
-				"filter": "https://raw.githubusercontent.com/KyleWK/tvs/refs/heads/main/nf/json/wogg.json"
+				"filter": "./json/wogg.json"
 			}
 		},
 		{
@@ -595,7 +595,7 @@
 			"switchable": 0,
 			"ext": {
 				"siteUrl": "https://www.qwnull.com",
-				"commonConfig": "https://raw.githubusercontent.com/KyleWK/tvs/refs/heads/main/nf/json/peizhi.json"
+				"commonConfig": "./json/peizhi.json"
 			}
 		},
 		{
@@ -606,9 +606,9 @@
 			"searchable": 1,
 			"changeable": 0,
 			"ext": {
-				"commonConfig": "https://raw.githubusercontent.com/KyleWK/tvs/refs/heads/main/nf/json/peizhi.json",
+				"commonConfig": "./json/peizhi.json",
 				"siteUrl": "https://erxiaofn.click/",
-				"filter": "https://raw.githubusercontent.com/KyleWK/tvs/refs/heads/main/nf/json/wogg.json"
+				"filter": "./json/wogg.json"
 			}
 		},
 		{
@@ -619,9 +619,9 @@
 			"searchable": 1,
 			"changeable": 0,
 			"ext": {
-				"commonConfig": "https://raw.githubusercontent.com/KyleWK/tvs/refs/heads/main/nf/json/peizhi.json",
+				"commonConfig": "./json/peizhi.json",
 				"siteUrl": "https://www.mihdr.top",
-				"filter": "https://raw.githubusercontent.com/KyleWK/tvs/refs/heads/main/nf/json/wogg.json"
+				"filter": "./json/wogg.json"
 			}
 		},
 		{
@@ -632,9 +632,9 @@
 			"searchable": 1,
 			"changeable": 0,
 			"ext": {
-				"commonConfig": "https://raw.githubusercontent.com/KyleWK/tvs/refs/heads/main/nf/json/peizhi.json",
+				"commonConfig": "./json/peizhi.json",
 				"siteUrl": "https://feimao666.fun",
-				"filter": "https://raw.githubusercontent.com/KyleWK/tvs/refs/heads/main/nf/json/wogg.json"
+				"filter": "./json/wogg.json"
 			}
 		},
 		{
@@ -645,9 +645,9 @@
 			"searchable": 1,
 			"changeable": 0,
 			"ext": {
-				"commonConfig": "https://raw.githubusercontent.com/KyleWK/tvs/refs/heads/main/nf/json/peizhi.json",
+				"commonConfig": "./json/peizhi.json",
 				"siteUrl": "https://woog.nxog.eu.org",
-				"filter": "https://raw.githubusercontent.com/KyleWK/tvs/refs/heads/main/nf/json/wogg.json"
+				"filter": "./json/wogg.json"
 			}
 		},
 		{
@@ -658,9 +658,9 @@
 			"searchable": 1,
 			"changeable": 0,
 			"ext": {
-				"commonConfig": "https://raw.githubusercontent.com/KyleWK/tvs/refs/heads/main/nf/json/peizhi.json",
+				"commonConfig": "./json/peizhi.json",
 				"siteUrl": "https://tv.yydsys.top",
-				"filter": "https://raw.githubusercontent.com/KyleWK/tvs/refs/heads/main/nf/json/wogg.json"
+				"filter": "./json/wogg.json"
 			}
 		},
 		{
@@ -673,7 +673,7 @@
 			"switchable": 0,
 			"ext": {
 				"siteUrl": "https://1.star2.cn",
-				"commonConfig": "https://raw.githubusercontent.com/KyleWK/tvs/refs/heads/main/nf/json/peizhi.json"
+				"commonConfig": "./json/peizhi.json"
 			}
 		},
 		{
@@ -684,7 +684,7 @@
 			"searchable": 1,
 			"changeable": 0,
 			"ext": {
-				"commonConfig": "https://raw.githubusercontent.com/KyleWK/tvs/refs/heads/main/nf/json/peizhi.json"
+				"commonConfig": "./json/peizhi.json"
 			}
 		},
 		{
@@ -695,9 +695,9 @@
 			"searchable": 1,
 			"changeable": 0,
 			"ext": {
-				"commonConfig": "https://raw.githubusercontent.com/KyleWK/tvs/refs/heads/main/nf/json/peizhi.json",
+				"commonConfig": "./json/peizhi.json",
 				"siteUrl": "http://123.666291.xyz/",
-				"filter": "https://raw.githubusercontent.com/KyleWK/tvs/refs/heads/main/nf/json/wogg.json"
+				"filter": "./json/wogg.json"
 			}
 		},
 		{
@@ -708,9 +708,9 @@
 			"searchable": 1,
 			"changeable": 0,
 			"ext": {
-				"commonConfig": "https://raw.githubusercontent.com/KyleWK/tvs/refs/heads/main/nf/json/peizhi.json",
+				"commonConfig": "./json/peizhi.json",
 				"siteUrl": "http://1.95.79.193",
-				"filter": "https://raw.githubusercontent.com/KyleWK/tvs/refs/heads/main/nf/json/wogg.json"
+				"filter": "./json/wogg.json"
 			}
 		},
 		{
@@ -723,7 +723,7 @@
 			"switchable": 0,
 			"ext": {
 				"siteUrl": "https://www.91panta.cn/",
-				"commonConfig": "https://raw.githubusercontent.com/KyleWK/tvs/refs/heads/main/nf/json/peizhi.json"
+				"commonConfig": "./json/peizhi.json"
 			}
 		},
 		{
@@ -733,7 +733,7 @@
 			"api": "csp_AList",
 			"searchable": 1,
 			"changeable": 0,
-			"ext": "https://raw.githubusercontent.com/KyleWK/tvs/refs/heads/main/nf/json/alist.json"
+			"ext": "./json/alist.json"
 		},
 		{
 			"key": "网盘集合",
@@ -744,8 +744,8 @@
 			"filterable": 0,
 			"switchable": 0,
 			"ext": {
-				"commonConfig": "https://raw.githubusercontent.com/KyleWK/tvs/refs/heads/main/nf/json/peizhi.json",
-				"share": "https://raw.githubusercontent.com/KyleWK/tvs/refs/heads/main/nf/json/网盘集合.json"
+				"commonConfig": "./json/peizhi.json",
+				"share": "./json/网盘集合.json"
 			}
 		},
 		{
@@ -760,8 +760,8 @@
 				"ratio": 1.433
 			},
 			"ext": {
-				"commonConfig": "https://raw.githubusercontent.com/KyleWK/tvs/refs/heads/main/nf/json/peizhi.json",
-				"json": "https://raw.githubusercontent.com/KyleWK/tvs/refs/heads/main/nf/json/youtube.json",
+				"commonConfig": "./json/peizhi.json",
+				"json": "./json/youtube.json",
 				"cookie": "http://127.0.0.1:9978/file/TVBox/youtubecookie.json"
 			}
 		},
@@ -776,7 +776,7 @@
 			"ext": {
 				"count": 4,
 				"channelUsername": "bdwpzhpd,bdwpzhpd,alyp_TV,ucquark,wp123zy,oneonefivewpfx,tyypzhpd,cloudtianyi,ydypzyfx,yunpan139,guaguale115,Mbox115,shares_115,zaihuayun,PanjClub,NewQuark,yunpanpan,kuake_movie,Quark_Movies,alyp_4K_Movies,alyp_TV,yunpanshare,shareAliyun,alyp_1,BaiduCloudDisk",
-				"commonConfig": "https://raw.githubusercontent.com/KyleWK/tvs/refs/heads/main/nf/json/peizhi.json"
+				"commonConfig": "./json/peizhi.json"
 			}
 		},
 		{
@@ -787,7 +787,7 @@
 			"searchable": 0,
 			"quickSearch": 0,
 			"ext": {
-				"commonConfig": "https://raw.githubusercontent.com/KyleWK/tvs/refs/heads/main/nf/json/peizhi.json"
+				"commonConfig": "./json/peizhi.json"
 			}
 		},
 		{
@@ -799,8 +799,8 @@
 			"filterable": 0,
 			"switchable": 0,
 			"ext": {
-				"commonConfig": "https://raw.githubusercontent.com/KyleWK/tvs/refs/heads/main/nf/json/peizhi.json",
-				"share": "https://raw.githubusercontent.com/KyleWK/tvs/refs/heads/main/nf/json/apk.json"
+				"commonConfig": "./json/peizhi.json",
+				"share": "./json/apk.json"
 			}
 		},
 		{
@@ -832,8 +832,8 @@
 			"key": "斗鱼",
 			"name": "🐟斗鱼直播",
 			"type": 3,
-			"api": "https://raw.githubusercontent.com/KyleWK/tvs/refs/heads/main/nf/js/lib/drpy2.min.js",
-			"ext": "https://raw.githubusercontent.com/KyleWK/tvs/refs/heads/main/nf/js/斗鱼直播.js",
+			"api": "./js/lib/drpy2.min.js",
+			"ext": "./js/斗鱼直播.js",
 			"style": {
 				"type": "rect",
 				"ratio": 1.755
@@ -847,12 +847,12 @@
 			"key": "有声小说吧",
 			"name": "📚有声小说吧",
 			"type": 3,
-			"api": "https://raw.githubusercontent.com/KyleWK/tvs/refs/heads/main/nf/js/lib/drpy2.min.js",
+			"api": "./js/lib/drpy2.min.js",
 			"playerType": "2",
 			"searchable": 0,
 			"quickSearch": 0,
 			"filterable": 0,
-			"ext": "https://raw.githubusercontent.com/KyleWK/tvs/refs/heads/main/nf/js/有声小说吧.js"
+			"ext": "./js/有声小说吧.js"
 		},
 		{
 			"key": "哔哩",
@@ -867,7 +867,7 @@
 				"ratio": 1.433
 			},
 			"ext": {
-				"json": "https://raw.githubusercontent.com/KyleWK/tvs/refs/heads/main/nf/json/Bili.json",
+				"json": "./json/Bili.json",
 				"cookie": ""
 			}
 		},
@@ -884,7 +884,7 @@
 				"ratio": 1.433
 			},
 			"ext": {
-				"json": "https://raw.githubusercontent.com/KyleWK/tvs/refs/heads/main/nf/json/Blixs.json",
+				"json": "./json/Blixs.json",
 				"cookie": ""
 			}
 		},
@@ -901,7 +901,7 @@
 				"ratio": 1.433
 			},
 			"ext": {
-				"json": "https://raw.githubusercontent.com/KyleWK/tvs/refs/heads/main/nf/json/Blixq.json",
+				"json": "./json/Blixq.json",
 				"cookie": ""
 			}
 		},
@@ -918,7 +918,7 @@
 				"ratio": 1.433
 			},
 			"ext": {
-				"json": "https://raw.githubusercontent.com/KyleWK/tvs/refs/heads/main/nf/json/少儿教育.json",
+				"json": "./json/少儿教育.json",
 				"cookie": ""
 			}
 		},
@@ -935,7 +935,7 @@
 				"ratio": 1.433
 			},
 			"ext": {
-				"json": "https://raw.githubusercontent.com/KyleWK/tvs/refs/heads/main/nf/json/小学课堂.json",
+				"json": "./json/小学课堂.json",
 				"cookie": ""
 			}
 		},
@@ -952,7 +952,7 @@
 				"ratio": 1.433
 			},
 			"ext": {
-				"json": "https://raw.githubusercontent.com/KyleWK/tvs/refs/heads/main/nf/json/初中课堂.json",
+				"json": "./json/初中课堂.json",
 				"cookie": ""
 			}
 		},
@@ -969,7 +969,7 @@
 				"ratio": 1.433
 			},
 			"ext": {
-				"json": "https://raw.githubusercontent.com/KyleWK/tvs/refs/heads/main/nf/json/高中课堂.json",
+				"json": "./json/高中课堂.json",
 				"cookie": ""
 			}
 		}
@@ -1125,58 +1125,7 @@
 			}
 		}
 	],
-	"lives": [
-		{
-			"name": "Yoursmile",
-			"type": 0,
-			"url": "https://raw.githubusercontent.com/KyleWK/tvs/refs/heads/main/nf/live.txt",
-			"playerType": 1,
-			"ua": "okhttp/3.15",
-			"epg": "http://epg.51zmt.top:8000/api/diyp/?ch={name}&date={date}",
-			"logo": "https://epg.112114.xyz/logo/{name}.png"
-		},
-		{
-			"name": "feiyang.allinone",
-			"type": 0,
-			"url": "http://127.0.0.1:35457/tv.m3u",
-			"ua": "okhttp/3.15",
-			"epg": "http://epg.51zmt.top:8000/api/diyp/?ch={name}&date={date}",
-			"logo": "https://epg.112114.xyz/logo/{name}.png"
-		},
-		{
-			"name": "feiyang.bililive",
-			"type": 0,
-			"url": "http://127.0.0.1:35457/bililive.m3u",
-			"ua": "okhttp/3.15",
-			"epg": "http://epg.51zmt.top:8000/api/diyp/?ch={name}&date={date}",
-			"logo": "https://epg.112114.xyz/logo/{name}.png"
-		},
-		{
-			"name": "feiyang.huyayqk",
-			"type": 0,
-			"url": "http://127.0.0.1:35457/huyayqk.m3u",
-			"ua": "okhttp/3.15",
-			"epg": "http://epg.51zmt.top:8000/api/diyp/?ch={name}&date={date}",
-			"logo": "https://epg.112114.xyz/logo/{name}.png"
-		},
-		{
-			"name": "feiyang.douyuyqk",
-			"type": 0,
-			"url": "http://127.0.0.1:35457/douyuyqk.m3u",
-			"ua": "okhttp/3.15",
-			"epg": "http://epg.51zmt.top:8000/api/diyp/?ch={name}&date={date}",
-			"logo": "https://epg.112114.xyz/logo/{name}.png"
-		},
-		{
-			"name": "feiyang.yylunbo",
-			"type": 0,
-			"url": "http://127.0.0.1:35457/yylunbo.m3u",
-			"ua": "okhttp/3.15",
-			"epg": "http://epg.51zmt.top:8000/api/diyp/?ch={name}&date={date}",
-			"logo": "https://epg.112114.xyz/logo/{name}.png"
-		}
-	],
-	"logo": "https://raw.githubusercontent.com/KyleWK/tvs/refs/heads/main/nf/json/NanFeng.gif",
+	"logo": "./json/NanFeng.gif",
 	"rules": [
 		{
 			"name": "量非",

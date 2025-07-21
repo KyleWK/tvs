@@ -1,7 +1,5 @@
-
-
 {
-    "spider": "https://github.com/KyleWK/tvs/raw/refs/heads/main/%E9%A5%AD%E5%A4%AA%E7%A1%AC/spider.jar",
+    "spider": "./spider.jar",
     "wallpaper": "https://深色壁纸.xxooo.cf/",
     "sites": [
         {
@@ -333,15 +331,15 @@
             "quickSearch": 0,
             "changeable": 0,
             "ext": {
-                "json": "https://github.com/KyleWK/tvs/raw/refs/heads/main/%E9%A5%AD%E5%A4%AA%E7%A1%AC/json/MTV.json"
+                "json": "./json/MTV.json"
             }
         },
         {
             "key": "虎牙直播js",
             "name": "🐯虎牙┃直播",
             "type": 3,
-            "api": "https://github.com/KyleWK/tvs/raw/refs/heads/main/%E9%A5%AD%E5%A4%AA%E7%A1%AC/api/drpy2.js",
-            "ext": "https://github.com/KyleWK/tvs/raw/refs/heads/main/%E9%A5%AD%E5%A4%AA%E7%A1%AC/js/huya2.js",
+            "api": "./api/drpy2.js",
+            "ext": "./js/huya2.js",
             "style": {
                 "type": "rect",
                 "ratio": 1.755
@@ -356,8 +354,8 @@
             "key": "斗鱼js",
             "name": "🐟斗鱼┃直播",
             "type": 3,
-            "api": "https://github.com/KyleWK/tvs/raw/refs/heads/main/%E9%A5%AD%E5%A4%AA%E7%A1%AC/api/drpy2.min.js",
-            "ext": "https://github.com/KyleWK/tvs/raw/refs/heads/main/%E9%A5%AD%E5%A4%AA%E7%A1%AC/js/斗鱼直播.js",
+            "api": "./api/drpy2.min.js",
+            "ext": "./js/斗鱼直播.js",
             "style": {
                 "type": "rect",
                 "ratio": 1.755
@@ -372,8 +370,8 @@
             "key": "有声小说js",
             "name": "🎧有声┃小说",
             "type": 3,
-            "api": "https://github.com/KyleWK/tvs/raw/refs/heads/main/%E9%A5%AD%E5%A4%AA%E7%A1%AC/api/drpy2.min.js",
-            "ext": "https://github.com/KyleWK/tvs/raw/refs/heads/main/%E9%A5%AD%E5%A4%AA%E7%A1%AC/js/有声小说吧.js",
+            "api": "./api/drpy2.min.js",
+            "ext": "./js/有声小说吧.js",
             "style": {
                 "type": "rect",
                 "ratio": 1
@@ -536,8 +534,8 @@
             "key": "dr_兔小贝",
             "name": "📚儿童┃启蒙",
             "type": 3,
-            "api": "https://github.com/KyleWK/tvs/raw/refs/heads/main/%E9%A5%AD%E5%A4%AA%E7%A1%AC/api/drpy2.min.js",
-            "ext": "https://github.com/KyleWK/tvs/raw/refs/heads/main/%E9%A5%AD%E5%A4%AA%E7%A1%AC/js/兔小贝.js",
+            "api": "./api/drpy2.min.js",
+            "ext": "./js/兔小贝.js",
             "style": {
                 "type": "rect",
                 "ratio": 1.597
@@ -559,7 +557,7 @@
             "quickSearch": 0,
             "changeable": 0,
             "ext": {
-                "json": "https://github.com/KyleWK/tvs/raw/refs/heads/main/%E9%A5%AD%E5%A4%AA%E7%A1%AC/json/少儿教育.json"
+                "json": "./json/少儿教育.json"
             }
         },
         {
@@ -575,7 +573,7 @@
             "quickSearch": 0,
             "changeable": 0,
             "ext": {
-                "json": "https://github.com/KyleWK/tvs/raw/refs/heads/main/%E9%A5%AD%E5%A4%AA%E7%A1%AC/json/小学课堂.json"
+                "json": "./json/小学课堂.json"
             }
         },
         {
@@ -591,7 +589,7 @@
             "quickSearch": 0,
             "changeable": 0,
             "ext": {
-                "json": "https://github.com/KyleWK/tvs/raw/refs/heads/main/%E9%A5%AD%E5%A4%AA%E7%A1%AC/json/初中课堂.json"
+                "json": "./json/初中课堂.json"
             }
         },
         {
@@ -607,7 +605,7 @@
             "quickSearch": 0,
             "changeable": 0,
             "ext": {
-                "json": "https://github.com/KyleWK/tvs/raw/refs/heads/main/%E9%A5%AD%E5%A4%AA%E7%A1%AC/json/高中课堂.json"
+                "json": "./json/高中课堂.json"
             }
         },
         {
