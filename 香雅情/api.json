@@ -7,7 +7,7 @@
         {
             "name": "FMM_IPV6",
             "type": 0,
-            "url": "./lives/FMM_IPV6.txt",
+            "url": "",
             "epg": "https://epg.112114.xyz/?ch={name}&date={date}"
         }
     ],

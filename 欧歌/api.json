@@ -5,10 +5,10 @@
     "warningText": "o提示:\n📢接口软件永远免费 \n📢长期维护切勿贩卖",
     "lives": [
         {
-            "name": "Live",
+            "name": "live",
             "type": 0,
-            "url": "http://127.0.0.1:9978/proxy?do=live&u=Gather",
-            "epg": ""
+            "url": "",
+            "epg": "https://epg.112114.xyz/?ch={name}&date={date}"
         }
     ],
     "sites": [

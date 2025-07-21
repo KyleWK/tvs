@@ -1,6 +1,14 @@
 {
 	"spider": "./spider.jar",
 	"wallpaper": "https://深色壁纸.xxooo.cf/",
+    "lives": [
+        {
+            "name": "live",
+            "type": 0,
+            "url": "",
+            "epg": "https://epg.112114.xyz/?ch={name}&date={date}"
+        }
+    ],
 	"sites": [
 		{
 			"key": "Tg|豆瓣",
