@@ -3,6 +3,14 @@
     "logo": "https://o.nxog.top/m//LOGO2.gif",
     "spider": "./spider.jar",
     "warningText": "o提示:\n📢接口软件永远免费 \n📢长期维护切勿贩卖",
+    "lives": [
+        {
+            "name": "Live",
+            "type": 0,
+            "url": "http://127.0.0.1:9978/proxy?do=live&u=Gather",
+            "epg": ""
+        }
+    ],
     "sites": [
         {
             "key": "豆瓣2",
