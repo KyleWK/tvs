@@ -23,7 +23,7 @@
         },
         {
             "key": "玩偶",
-            "name": "👽玩偶哥哥",
+            "name": "👽玩偶哥哥┃4K弹幕",
             "type": 3,
             "api": "csp_WoGGGuard",
             "timeout": 30,
@@ -184,6 +184,17 @@
             "ext": "https://auete.com/"
         },
         {
+            "key": "荐片",
+            "name": "🐭荐片┃P2P",
+            "type": 3,
+            "api": "csp_JPJGuard",
+            "timeout": 15,
+            "playerType": 2,
+            "searchable": 1,
+            "quickSearch": 1,
+            "changeable": 0
+        },
+        {
             "key": "新6V",
             "name": "🧲新6V┃磁力",
             "type": 3,
@@ -223,106 +234,6 @@
             "searchable": 1,
             "quickSearch": 1,
             "changeable": 1
-        },
-        {
-            "key": "926",
-            "name": "⚽926┃看球",
-            "type": 3,
-            "api": "csp_kanqiu926Guard",
-            "timeout": 15,
-            "searchable": 0,
-            "changeable": 0,
-            "style": {
-                "type": "list"
-            },
-            "ext": "uqGL1fpJNAUa4uUHi9iMsef1+C/R"
-        },
-        {
-            "key": "88",
-            "name": "⚽88┃看球",
-            "type": 3,
-            "api": "csp_Sir88Guard",
-            "timeout": 15,
-            "searchable": 0,
-            "changeable": 0,
-            "style": {
-                "type": "list"
-            }
-        },
-        {
-            "key": "看球",
-            "name": "⚽看球┃直播",
-            "type": 3,
-            "api": "csp_KanqiuGuard",
-            "timeout": 15,
-            "searchable": 0,
-            "changeable": 0,
-            "style": {
-                "type": "list"
-            }
-        },
-        {
-            "key": "MTV",
-            "name": "🎧明星┃MV",
-            "type": 3,
-            "api": "csp_BiliGuard",
-            "style": {
-                "type": "rect",
-                "ratio": 1.597
-            },
-            "searchable": 0,
-            "quickSearch": 0,
-            "changeable": 0,
-            "ext": {
-                "json": "./json/MTV.json"
-            }
-        },
-        {
-            "key": "虎牙直播js",
-            "name": "🐯虎牙┃直播",
-            "type": 3,
-            "api": "./api/drpy2.js",
-            "ext": "./js/huya2.js",
-            "style": {
-                "type": "rect",
-                "ratio": 1.755
-            },
-            "timeout": 15,
-            "playerType": "2",
-            "searchable": 0,
-            "quickSearch": 0,
-            "changeable": 0
-        },
-        {
-            "key": "斗鱼js",
-            "name": "🐟斗鱼┃直播",
-            "type": 3,
-            "api": "./api/drpy2.min.js",
-            "ext": "./js/斗鱼直播.js",
-            "style": {
-                "type": "rect",
-                "ratio": 1.755
-            },
-            "timeout": 15,
-            "playerType": "2",
-            "searchable": 0,
-            "quickSearch": 0,
-            "changeable": 0
-        },
-        {
-            "key": "有声小说js",
-            "name": "🎧有声┃小说",
-            "type": 3,
-            "api": "./api/drpy2.min.js",
-            "ext": "./js/有声小说吧.js",
-            "style": {
-                "type": "rect",
-                "ratio": 1
-            },
-            "timeout": 15,
-            "searchable": 0,
-            "quickSearch": 0,
-            "changeable": 0
         },
         {
             "key": "Aid",
