@@ -27,7 +27,7 @@ function updateFullUrls() {
     
     fullUrlElements.forEach(element => {
         const path = element.previousElementSibling.textContent;
-        const fullUrl = baseUrl + '/' + path;
+        const fullUrl = baseUrl + '/' + path + '/';
         element.textContent = fullUrl;
     });
 }
@@ -42,8 +42,8 @@ function openConfig(path) {
 // 复制完整URL
 function copyFullUrl(path) {
     const baseUrl = getCurrentBaseUrl();
-    const fullUrl = baseUrl + '/' + path;
-    
+    const fullUrl = baseUrl + '/' + path + '/';
+
     navigator.clipboard.writeText(fullUrl).then(function() {
         showToast('完整URL已复制到剪贴板!', '#28a745');
     }).catch(function(err) {
