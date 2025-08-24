@@ -35,7 +35,7 @@ function updateFullUrls() {
 // 打开配置文件
 function openConfig(path) {
     const baseUrl = getCurrentBaseUrl();
-    const fullUrl = baseUrl + '/' + path;
+    const fullUrl = baseUrl + '/' + path + '/';
     window.open(fullUrl, '_blank');
 }
 
