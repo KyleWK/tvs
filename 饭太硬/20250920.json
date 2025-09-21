@@ -219,19 +219,6 @@
             "ext": "https://www.xb6v.com/"
         },
         {
-            "key": "Aid",
-            "name": "🚑急救┃教学",
-            "type": 3,
-            "api": "csp_FirstAidGuard",
-            "searchable": 0,
-            "quickSearch": 0,
-            "changeable": 0,
-            "style": {
-                "type": "rect",
-                "ratio": 3.8
-            }
-        },
-        {
             "key": "Dm84",
             "name": "🚌巴士┃动漫",
             "type": 3,
@@ -296,6 +283,19 @@
             "changeable": 0,
             "style": {
                 "type": "list"
+            }
+        },
+        {
+            "key": "Aid",
+            "name": "🚑急救┃教学",
+            "type": 3,
+            "api": "csp_FirstAidGuard",
+            "searchable": 0,
+            "quickSearch": 0,
+            "changeable": 0,
+            "style": {
+                "type": "rect",
+                "ratio": 3.8
             }
         },
         {
