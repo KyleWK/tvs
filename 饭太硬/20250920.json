@@ -1,20 +1,31 @@
 {
-    "spider": "https://coss.yupoo.com/upchat/2025-09-17/1758116715370.jpg;md5;98ca59a872d6d4d89c8c7e2aafb4dae1",
+    "spider": "./spider.jar",
     "wallpaper": "https://深色壁纸.xxooo.cf/",
+    "logo": "./logo.gif",
+    "lives": [
+        {
+            "name": "V4-develop202",
+            "type": 0,
+            "url": "./live/v4.txt",
+            "playerType": 2,
+            "epg": "http://epg.51zmt.top:8000/api/diyp/?ch={name}&date={date}"
+        }
+    ],
     "sites": [
         {
-            "key": "豆",
-            "name": "夸父有问题的看公众号推文【神秘的哥哥们】",
+            "key": "厂长",
+            "name": "📔厂长┃不卡",
             "type": 3,
-            "api": "csp_DouDouGuard",
-            "indexs": 1,
-            "searchable": 0,
-            "quickSearch": 0,
-            "changeable": 0
+            "api": "csp_NewCzGuard",
+            "timeout": 15,
+            "playerType": 2,
+            "searchable": 1,
+            "quickSearch": 1,
+            "changeable": 1
         },
         {
             "key": "玩偶",
-            "name": "👽玩偶哥哥┃4K弹幕",
+            "name": "👽玩偶哥哥",
             "type": 3,
             "api": "csp_WoGGGuard",
             "timeout": 30,
@@ -27,25 +38,6 @@
                 "siteUrl": "https://www.wogg.com/",
                 "danMu": "弹"
             }
-        },
-        {
-            "key": "YGP",
-            "name": "🚀叨观荐影┃预告片",
-            "type": 3,
-            "api": "csp_YGPGuard",
-            "searchable": 0,
-            "quickSearch": 0,
-            "changeable": 0
-        },
-        {
-            "key": "alllive",
-            "name": "📽️一直播┃直播",
-            "type": 3,
-            "api": "csp_AllliveGuard",
-            "playerType": 2,
-            "searchable": 0,
-            "quickSearch": 0,
-            "changeable": 0
         },
         {
             "key": "seed",
@@ -62,23 +54,22 @@
             }
         },
         {
-            "key": "文采",
-            "name": "💮文采┃秒播",
+            "key": "苹果",
+            "name": "🍎苹果┃不卡",
             "type": 3,
-            "api": "csp_JpysGuard",
+            "api": "csp_LiteAppleGuard",
             "timeout": 15,
-            "playerType": 2,
             "searchable": 1,
             "quickSearch": 1,
             "changeable": 1
         },
         {
-            "key": "厂长",
-            "name": "📔厂长┃秒播",
+            "key": "原创",
+            "name": "☀原创┃不卡",
             "type": 3,
-            "api": "csp_NewCzGuard",
-            "timeout": 15,
-            "playerType": 2,
+            "api": "csp_YCyzGuard",
+            "timeout": 30,
+            "playerType": 1,
             "searchable": 1,
             "quickSearch": 1,
             "changeable": 1
@@ -94,17 +85,18 @@
             "changeable": 1
         },
         {
-            "key": "比特",
-            "name": "🍄比特┃秒播",
+            "key": "文采",
+            "name": "💮文采┃秒播",
             "type": 3,
-            "api": "csp_BttwooGuard",
+            "api": "csp_JpysGuard",
             "timeout": 15,
+            "playerType": 2,
             "searchable": 1,
             "quickSearch": 1,
             "changeable": 1
         },
         {
-            "key": "立播",
+            "key": "Lib",
             "name": "🌟立播┃秒播",
             "type": 3,
             "api": "csp_LibvioGuard",
@@ -128,21 +120,10 @@
             "ext": "rfOX1voDIQhH8epBwpmIsuS/sSCZxc/v1TAvdIvuChMackUUvW9kpKB+MLYeh4E6s3acbsBJ32o953hmRr4x"
         },
         {
-            "key": "原创",
-            "name": "☀原创┃不卡",
+            "key": "比特",
+            "name": "🍄比特┃手机",
             "type": 3,
-            "api": "csp_YCyzGuard",
-            "timeout": 30,
-            "playerType": 1,
-            "searchable": 1,
-            "quickSearch": 1,
-            "changeable": 1
-        },
-        {
-            "key": "苹果",
-            "name": "🍎苹果┃不卡",
-            "type": 3,
-            "api": "csp_LiteAppleGuard",
+            "api": "csp_BttwooGuard",
             "timeout": 15,
             "searchable": 1,
             "quickSearch": 1,
@@ -238,6 +219,19 @@
             "ext": "https://www.xb6v.com/"
         },
         {
+            "key": "Aid",
+            "name": "🚑急救┃教学",
+            "type": 3,
+            "api": "csp_FirstAidGuard",
+            "searchable": 0,
+            "quickSearch": 0,
+            "changeable": 0,
+            "style": {
+                "type": "rect",
+                "ratio": 3.8
+            }
+        },
+        {
             "key": "Dm84",
             "name": "🚌巴士┃动漫",
             "type": 3,
@@ -302,76 +296,6 @@
             "changeable": 0,
             "style": {
                 "type": "list"
-            }
-        },
-        {
-            "key": "MTV",
-            "name": "🎧明星┃MV",
-            "type": 3,
-            "api": "csp_BiliGuard",
-            "style": {
-                "type": "rect",
-                "ratio": 1.597
-            },
-            "searchable": 0,
-            "quickSearch": 0,
-            "changeable": 0,
-            "ext": {
-                "json": "https://nos.netease.com/ysf/5af5fbe12a88b7c45aa1c21e6551826c.txt"
-            }
-        },
-        {
-            "key": "虎牙直播js",
-            "name": "🐯虎牙┃直播",
-            "type": 3,
-            "api": "https://ghfast.top/https://raw.githubusercontent.com/fantaiying7/EXT/refs/heads/main/drpy2.js",
-            "ext": "https://ghfast.top/https://raw.githubusercontent.com/fantaiying7/EXT/refs/heads/main/huya2.js",
-            "style": {
-                "type": "rect",
-                "ratio": 1.755
-            },
-            "timeout": 15,
-            "playerType": "2",
-            "searchable": 0,
-            "quickSearch": 0,
-            "changeable": 0
-        },
-        {
-            "key": "斗鱼js",
-            "name": "🐟斗鱼┃直播",
-            "type": 3,
-            "api": "https://ghfast.top/https://raw.githubusercontent.com/fantaiying7/EXT/refs/heads/main/drpy2.min.js",
-            "ext": "https://ghfast.top/https://raw.githubusercontent.com/fantaiying7/EXT/refs/heads/main/斗鱼直播.js",
-            "style": {
-                "type": "rect",
-                "ratio": 1.755
-            },
-            "timeout": 15,
-            "playerType": "2",
-            "searchable": 0,
-            "quickSearch": 0,
-            "changeable": 0
-        },
-        {
-            "key": "有声小说",
-            "name": "🎧有声┃小说",
-            "type": 3,
-            "api": "csp_Tingshu275Guard",
-            "searchable": 0,
-            "quickSearch": 0,
-            "changeable": 0
-        },
-        {
-            "key": "Aid",
-            "name": "🚑急救┃教学",
-            "type": 3,
-            "api": "csp_FirstAidGuard",
-            "searchable": 0,
-            "quickSearch": 0,
-            "changeable": 0,
-            "style": {
-                "type": "rect",
-                "ratio": 3.8
             }
         },
         {
@@ -490,182 +414,6 @@
                 "Cloud-drive": "tvfan/Cloud-drive.txt",
                 "from": "4k|auto"
             }
-        },
-        {
-            "key": "Bili",
-            "name": "🅱哔哔合集┃弹幕",
-            "type": 3,
-            "api": "csp_BiliGuard",
-            "style": {
-                "type": "rect",
-                "ratio": 1.597
-            },
-            "searchable": 1,
-            "quickSearch": 0,
-            "changeable": 0,
-            "ext": {
-                "json": "https://nos.netease.com/ysf/0075389dca9afadd4614e9713765ff17.txt"
-            }
-        },
-        {
-            "key": "Biliych",
-            "name": "🅱哔哔演唱会┃弹幕",
-            "type": 3,
-            "api": "csp_BiliGuard",
-            "style": {
-                "type": "rect",
-                "ratio": 1.597
-            },
-            "searchable": 1,
-            "quickSearch": 0,
-            "changeable": 0,
-            "ext": {
-                "json": "https://nos.netease.com/ysf/6496356286589c68f52c2f99c0c674c7.txt"
-            }
-        },
-        {
-            "key": "dr_兔小贝",
-            "name": "📚儿童┃启蒙",
-            "type": 3,
-            "api": "https://ghfast.top/https://raw.githubusercontent.com/fantaiying7/EXT/refs/heads/main/drpy2.min.js",
-            "ext": "https://ghfast.top/https://raw.githubusercontent.com/fantaiying7/EXT/refs/heads/main/%E5%85%94%E5%B0%8F%E8%B4%9D.js",
-            "style": {
-                "type": "rect",
-                "ratio": 1.597
-            },
-            "searchable": 0,
-            "quickSearch": 0,
-            "changeable": 0
-        },
-        {
-            "key": "少儿教育",
-            "name": "📚少儿┃教育",
-            "type": 3,
-            "api": "csp_BiliGuard",
-            "style": {
-                "type": "rect",
-                "ratio": 1.597
-            },
-            "searchable": 0,
-            "quickSearch": 0,
-            "changeable": 0,
-            "ext": {
-                "json": "https://nos.netease.com/ysf/89370c8ddf36b5e1beb4d71adb921bda.txt"
-            }
-        },
-        {
-            "key": "小学课堂",
-            "name": "📚小学┃课堂",
-            "type": 3,
-            "api": "csp_BiliGuard",
-            "style": {
-                "type": "rect",
-                "ratio": 1.597
-            },
-            "searchable": 0,
-            "quickSearch": 0,
-            "changeable": 0,
-            "ext": {
-                "json": "https://nos.netease.com/ysf/d7a21cf34ede56f5c686ecfba5fc7e3f.txt"
-            }
-        },
-        {
-            "key": "初中课堂",
-            "name": "📚初中┃课堂",
-            "type": 3,
-            "api": "csp_BiliGuard",
-            "style": {
-                "type": "rect",
-                "ratio": 1.597
-            },
-            "searchable": 0,
-            "quickSearch": 0,
-            "changeable": 0,
-            "ext": {
-                "json": "https://nos.netease.com/ysf/8f55d520f8d70056695740ef151744a7.txt"
-            }
-        },
-        {
-            "key": "高中教育",
-            "name": "📚高中┃课堂",
-            "type": 3,
-            "api": "csp_BiliGuard",
-            "style": {
-                "type": "rect",
-                "ratio": 1.597
-            },
-            "searchable": 0,
-            "quickSearch": 0,
-            "changeable": 0,
-            "ext": {
-                "json": "https://nos.netease.com/ysf/c66a4b5356141c49fd45ec51568017b4.txt"
-            }
-        },
-        {
-            "key": "fan",
-            "name": "导航www.饭太硬.com",
-            "type": 3,
-            "api": "csp_XPathGuard",
-            "searchable": 1,
-            "quickSearch": 0,
-            "changeable": 0
-        },
-        {
-            "key": "cc",
-            "name": "请勿相信视频中广告",
-            "type": 3,
-            "api": "csp_XPathGuard",
-            "searchable": 1,
-            "quickSearch": 0,
-            "changeable": 0
-        }
-    ],
-    "logo": "https://cdn.wmpvp.com/steamWeb/B96F868DE45B45D690B5F9F490D0BC60-1745866248445.gif",
-    "lives": [
-        {
-            "name": "V4-develop202",
-            "type": 0,
-            "url": "https://ghfast.top/https://raw.githubusercontent.com/develop202/migu_video/refs/heads/main/interface.txt",
-            "playerType": 2,
-            "epg": "http://epg.51zmt.top:8000/api/diyp/?ch={name}&date={date}"
-        },
-        {
-            "name": "V6-范明明（需开启V6网络）",
-            "type": 0,
-            "url": "https://nos.netease.com/ysf/3d75a78a0fc7ede372c03598d6d10367.m3u",
-            "playerType": 2
-        },
-        {
-            "name": "虎牙一起看",
-            "type": 0,
-            "url": "https://sub.ottiptv.cc/huyayqk.m3u",
-            "playerType": 2,
-            "timeout": 10,
-            "ua": "okHttp/Mod-1.4.0.0"
-        },
-        {
-            "name": "斗鱼一起看",
-            "type": 0,
-            "url": "https://sub.ottiptv.cc/douyuyqk.m3u",
-            "playerType": 2,
-            "timeout": 10,
-            "ua": "okHttp/Mod-1.4.0.0"
-        },
-        {
-            "name": "B站直播",
-            "type": 0,
-            "url": "https://sub.ottiptv.cc/bililive.m3u",
-            "playerType": 2,
-            "timeout": 10,
-            "ua": "okHttp/Mod-1.4.0.0"
-        },
-        {
-            "name": "YY轮播",
-            "type": 0,
-            "url": "https://sub.ottiptv.cc/yylunbo.m3u",
-            "playerType": 2,
-            "timeout": 10,
-            "ua": "okHttp/Mod-1.4.0.0"
         }
     ]
 }
