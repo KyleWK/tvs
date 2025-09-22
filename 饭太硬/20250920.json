@@ -6,7 +6,7 @@
         {
             "name": "V4-develop202",
             "type": 0,
-            "url": "./live/v4.txt",
+            "url": "https://raw.githubusercontent.com/develop202/migu_video/refs/heads/main/interface.txt",
             "playerType": 2,
             "epg": "http://epg.51zmt.top:8000/api/diyp/?ch={name}&date={date}"
         }
@@ -247,6 +247,54 @@
             "searchable": 1,
             "quickSearch": 1,
             "changeable": 1
+        },
+        {
+            "key": "MTV",
+            "name": "🎧明星┃MV",
+            "type": 3,
+            "api": "csp_BiliGuard",
+            "style": {
+                "type": "rect",
+                "ratio": 1.597
+            },
+            "searchable": 0,
+            "quickSearch": 0,
+            "changeable": 0,
+            "ext": {
+                "json": "./json/MTV.json"
+            }
+        },
+        {
+            "key": "Bili",
+            "name": "🅱哔哔合集┃弹幕",
+            "type": 3,
+            "api": "csp_BiliGuard",
+            "style": {
+                "type": "rect",
+                "ratio": 1.597
+            },
+            "searchable": 1,
+            "quickSearch": 0,
+            "changeable": 0,
+            "ext": {
+                "json": "./json/bilibili.json"
+            }
+        },
+        {
+            "key": "Biliych",
+            "name": "🅱我的关注┃弹幕",
+            "type": 3,
+            "api": "csp_BiliGuard",
+            "style": {
+                "type": "rect",
+                "ratio": 1.597
+            },
+            "searchable": 1,
+            "quickSearch": 0,
+            "changeable": 0,
+            "ext": {
+                "json": "./json/mybili.json"
+            }
         },
         {
             "key": "超全",

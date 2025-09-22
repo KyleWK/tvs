@@ -1,0 +1,36 @@
+{
+    "class": [
+        {
+            "type_name": "登陆配置",
+            "type_id": "peizhi"
+        },
+        {
+            "type_name": "明亮的车头漆",
+            "type_id": "明亮的车头漆"
+        },
+        {
+            "type_name": "军武白板",
+            "type_id": "军武白板"
+        },
+        {
+            "type_name": "老房叨叨叨",
+            "type_id": "老房叨叨叨"
+        },
+        {
+            "type_name": "军情D7处",
+            "type_id": "军情D7处"
+        },
+        {
+            "type_name": "阿柚不错哦",
+            "type_id": "阿柚不错哦"
+        },
+        {
+            "type_name": "金灿荣教授",
+            "type_id": "金灿荣教授"
+        },
+        {
+            "type_name": "万能工具人阿伟",
+            "type_id": "万能工具人阿伟"
+        }
+    ]
+}
