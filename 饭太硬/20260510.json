@@ -145,7 +145,7 @@
         },
         {
             "key": "鲸鱼",
-            "name": "👀鲸鱼┃多线",
+            "name": "🐟鲸鱼┃多线",
             "type": 3,
             "api": "csp_AppSxGuard",
             "timeout": 10,
@@ -222,7 +222,7 @@
         },
         {
             "key": "爱影",
-            "name": "👀爱影┃多线",
+            "name": "💖爱影┃多线",
             "type": 3,
             "api": "csp_AppSxGuard",
             "timeout": 10,
@@ -264,6 +264,38 @@
             "ext": "https://www.xb6v.com/"
         },
         {
+            "key": "Bili",
+            "name": "🅱 BiliBili┃合集",
+            "type": 3,
+            "api": "csp_BiliGuard",
+            "style": {
+                "type": "rect",
+                "ratio": 1.597
+            },
+            "searchable": 1,
+            "quickSearch": 0,
+            "changeable": 0,
+            "ext": {
+                "json": "./json/bilibili.json"
+            }
+        },
+        {
+            "key": "Biliych",
+            "name": "🅱 BiliBili┃关注",
+            "type": 3,
+            "api": "csp_BiliGuard",
+            "style": {
+                "type": "rect",
+                "ratio": 1.597
+            },
+            "searchable": 1,
+            "quickSearch": 0,
+            "changeable": 0,
+            "ext": {
+                "json": "./json/mybili.json"
+            }
+        },
+        {
             "key": "咕咕",
             "name": "🦉咕咕┃动漫",
             "type": 3,
@@ -293,80 +325,6 @@
             "searchable": 1,
             "quickSearch": 1,
             "changeable": 1
-        },
-        {
-            "key": "MTV",
-            "name": "🎧明星┃MV",
-            "type": 3,
-            "api": "csp_BiliGuard",
-            "style": {
-                "type": "rect",
-                "ratio": 1.597
-            },
-            "searchable": 0,
-            "quickSearch": 0,
-            "changeable": 0,
-            "ext": {
-                "json": "./json/MTV.json"
-            }
-        },
-        {
-            "key": "Music",
-            "name": "🎙️易听┃音乐",
-            "type": 3,
-            "api": "csp_MusicGuard",
-            "style": {
-                "type": "rect",
-                "ratio": 1
-            },
-            "searchable": 1,
-            "quickSearch": 0,
-            "changeable": 0
-        },
-        {
-            "key": "Aid",
-            "name": "🚑急救┃教学",
-            "type": 3,
-            "api": "csp_FirstAidGuard",
-            "searchable": 0,
-            "quickSearch": 0,
-            "changeable": 0,
-            "style": {
-                "type": "rect",
-                "ratio": 3.8
-            }
-        },
-        {
-            "key": "Bili",
-            "name": "🅱哔哔合集┃弹幕",
-            "type": 3,
-            "api": "csp_BiliGuard",
-            "style": {
-                "type": "rect",
-                "ratio": 1.597
-            },
-            "searchable": 1,
-            "quickSearch": 0,
-            "changeable": 0,
-            "ext": {
-                "json": "./json/bilibili.json"
-            }
-        },
-        {
-            "key": "Biliych",
-            "name": "🅱我的关注┃弹幕",
-            "type": 3,
-            "api": "csp_BiliGuard",
-            "style": {
-                "type": "rect",
-                "ratio": 1.597
-            },
-            "searchable": 1,
-            "quickSearch": 0,
-            "changeable": 0,
-            "ext": {
-                "json": "./json/mybili.json"
-            }
         },
         {
             "key": "抠搜",
@@ -406,7 +364,7 @@
         },
         {
             "key": "YpanSo",
-            "name": "🐟盘她┃夸父",
+            "name": "🧔‍♂️盘她┃夸父",
             "type": 3,
             "api": "csp_YpanSoGuard",
             "searchable": 1,
